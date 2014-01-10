@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	}
+
+body, html {
+	height:100%;
+    background-color: #4D80B9;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+	color: #4D80B9;
+}
+li, ul {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor:pointer;
+}
+
+#sidebar {
+	float: left;
+	width: 25%;
+	height: 100%;
+	color: #122D72;
+	text-align: center;
+	font-family:"franklin-gothic-ext-comp-urw";
+}
+#sidebar p {
+	font-size: 100pt;
+	line-height: 100pt;
+}
+#sidebar p.king {
+	margin-bottom:5px;
+}
+#sidebar p.pong {
+	margin-bottom:20px;
+}
+
+#rankings {
+	float: right;
+	background-color: #ECD056;
+	width: 75%;
+	height: 100%;
+	overflow:auto;
+}
+
+
+
+.container { 
+	width:100%;
+	height:100%;
+}
+.padding {
+	padding-top: 80px;
+}
+
+
+#rankingstitle {
+	height: 35px;
+	width: 149px;
+	background-image: url("images/rankingstitle.png");
+	margin-left: auto ;
+	margin-right: auto ;
+	margin-bottom: 69px;
+	}
+.newplayer {
+	width: 44px;
+	height: 44px;
+	margin-left: auto ;
+	margin-right: auto ;
+	margin-top: 130px;
+	background-image: url("images/newplayer.png");
+	display: block;
+	background-color: transparent;
+	border: none;
+	margin-bottom:100px;
+}
+
+
+#kingpong {
+	width: 145px;
+	height: 188px;
+	margin-left: auto ;
+	margin-right: auto ;
+	background-image: url("images/kingpong.png");
+}
+
+#of {
+	width: 180px;
+	height: 64px;
+	margin-left: auto ;
+	margin-right: auto ;
+	background-image: url("images/ofblock.png");
+}
+#pongballs{
+	width: 192px;
+	height: 81px;
+	margin-left: auto ;
+	margin-right: auto ;
+	margin-top: 25px;
+
+}
+#pongballs .cols {
+	display:block;
+	float:left;
+	width:20px;
+	height:30px;
+	background:url("images/shadow.png") bottom no-repeat;
+	margin-right:23px;
+	padding-top:50px;
+}
+#pongballs .cols .ball {
+	display:block;
+	height:20px;
+	width:20px;
+	background:url("images/ball.png");
+}
+#pongballs .cols.last {
+	margin-right:0;
+}
+#companyname {
+	margin-top: 27px;
+	color: white;
+	text-align: center;
+	font-size: 21pt;
+	font-family:"franklin-gothic-ext-comp-urw";
+}
+#tag{
+	color: white;
+	text-align: center;
+	font-size: 14pt;
+		margin-top: 27px;
+}
+
+
+ul {
+	list-style: none;
+}
+li {
+	background-color: #F7ECBB;
+	margin-bottom: 30px;
+	margin-right: 320px;
+	margin-left: 320px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 23pt;
+}
+li:first-child {
+	background-color: white;
+	position: relative;
+}
+.badge {
+	height: 67px;
+	width: 67px;
+	background-image: url("images/badge.png");
+	position: absolute;
+	top: -7px;
+	left: -20px;
+}
+body.screen-mode .newPlayer {
+	display:none;
+}
+body.screen-mode #rankings {
+	overflow:hidden;
+}
+
+
+}
