@@ -1,6 +1,6 @@
 
 	Hoist.apiKey("UYSYDAPGTLGXMCFIDZQU");
-
+	Hoist.config("protocol", "http://go.arthurmp.com/proxy/");
 	
 	var els = {							//Elements on the page
 			rankings: $("#rankings-list"),
